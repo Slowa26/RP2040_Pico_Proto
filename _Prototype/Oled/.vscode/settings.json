@@ -1,0 +1,16 @@
+{
+  "cmake.configureOnOpen": false,
+  "cmake.statusbar.advanced": {
+    "debug" : {
+      "visibility": "compact"
+              },    "launch" : {
+      "visibility": "compact"
+               },
+    "build" : {
+      "visibility": "compact"
+               },
+    "buildTarget" : {
+      "visibility": "compact"
+               },
+     },
+}
