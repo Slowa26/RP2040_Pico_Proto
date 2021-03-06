@@ -1,4 +1,5 @@
 # RP2040_Pico_Proto
+Development space for prototyping hardware interfaces
 
 This repo will serve as a prototyping space for the Raspberry Pi Pico development board.
 
