@@ -24,6 +24,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
+  "PICO_BOOT2_NAME=\"boot2_w25q080\""
   "PICO_BUILD=1"
   "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
@@ -78,6 +79,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/include"
+  "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_binary_info/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_stdio/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_stdio_uart/include"
@@ -130,6 +132,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_C
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
+  "PICO_BOOT2_NAME=\"boot2_w25q080\""
   "PICO_BUILD=1"
   "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
@@ -184,6 +187,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/include"
+  "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_binary_info/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_stdio/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_stdio_uart/include"
@@ -199,6 +203,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
+  "PICO_BOOT2_NAME=\"boot2_w25q080\""
   "PICO_BUILD=1"
   "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
@@ -253,6 +258,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/include"
+  "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_binary_info/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_stdio/include"
   "/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_stdio_uart/include"

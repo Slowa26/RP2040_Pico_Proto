@@ -3,3 +3,9 @@ pico-examples
 pico-extras
 __pico-project-generator
 _work
+_Prototype/Oled/.build/
+_Prototype/Oled/.cmake/
+_Prototype/Oled/build/CMakeFiles/
+_Prototype/Oled/build/pico-sdk/
+_Prototype/Oled/build/elf2uf2/
+_Prototype/Oled/build/generated/

@@ -13,10 +13,10 @@ pico/config_autogen.h
 /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/pico/config_autogen.h
 
 /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-hardware/regs/addressmap.h
-/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/hardware/regs/addressmap.h
 
 /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+hardware/platform_defs.h
+/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/hardware/platform_defs.h
 
 /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 
