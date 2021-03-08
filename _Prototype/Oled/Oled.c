@@ -82,10 +82,9 @@ int main()
 {
   stdio_init_all();
 
-  // SPI initialisation. This example will use SPI at 1MHz.
-  spi_init(SPI_PORT, 1000*1000); //Might want to try 4MHz, 4000 * 1000
+  // SPI initialisation. This example will use SPI at 4.5MHz.
+  spi_init(SPI_PORT, 4500*1000); //4.5Mhz, (4500 * 1000)
   gpio_set_function(PIN_MISO, GPIO_FUNC_SPI);
-  //gpio_set_function(PIN_CS,   GPIO_FUNC_SIO);
   gpio_set_function(PIN_SCK,  GPIO_FUNC_SPI);
   gpio_set_function(PIN_MOSI, GPIO_FUNC_SPI);
   

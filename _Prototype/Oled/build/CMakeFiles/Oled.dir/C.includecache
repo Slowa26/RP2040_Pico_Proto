@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/csowa/Desktop/PicoDev/_Prototype/Oled/ASCII_Font.h
-
-/home/csowa/Desktop/PicoDev/_Prototype/Oled/OLED_Driver.c
-OLED_Driver.h
-/home/csowa/Desktop/PicoDev/_Prototype/Oled/OLED_Driver.h
-hardware/spi.h
-/home/csowa/Desktop/PicoDev/_Prototype/Oled/hardware/spi.h
-ASCII_Font.h
-/home/csowa/Desktop/PicoDev/_Prototype/Oled/ASCII_Font.h
-stdio.h
--
-
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/OLED_Driver.h
 pico/stdlib.h
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/pico/stdlib.h
@@ -61,14 +49,12 @@ pico/config.h
 /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/config.h
 pico/platform.h
 /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/platform.h
-pico/assert.h
-/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/assert.h
 pico/error.h
 /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/error.h
 
 /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/assert.h
-pico/types.h
-/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/pico/types.h
+stdbool.h
+-
 cassert
 -
 assert.h
@@ -81,6 +67,8 @@ pico/config_autogen.h
 /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/error.h
 
 /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/types.h
+pico/assert.h
+/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/pico/assert.h
 stdint.h
 -
 stdbool.h
@@ -113,10 +101,10 @@ hardware/timer.h
 /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/include/pico/hardware/timer.h
 
 /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-hardware/regs/addressmap.h
-/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/hardware/regs/addressmap.h
 
 /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+hardware/platform_defs.h
+/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/hardware/platform_defs.h
 
 /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 

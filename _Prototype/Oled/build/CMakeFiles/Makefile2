@@ -468,6 +468,7 @@ pico-sdk/src/rp2_common/all: pico-sdk/src/rp2_common/hardware_xosc/all
 pico-sdk/src/rp2_common/all: pico-sdk/src/rp2_common/pico_bootrom/all
 pico-sdk/src/rp2_common/all: pico-sdk/src/rp2_common/pico_platform/all
 pico-sdk/src/rp2_common/all: pico-sdk/src/rp2_common/boot_stage2/all
+pico-sdk/src/rp2_common/all: pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/all
 pico-sdk/src/rp2_common/all: pico-sdk/src/rp2_common/pico_multicore/all
 pico-sdk/src/rp2_common/all: pico-sdk/src/rp2_common/pico_unique_id/all
 pico-sdk/src/rp2_common/all: pico-sdk/src/rp2_common/pico_bit_ops/all
@@ -518,6 +519,7 @@ pico-sdk/src/rp2_common/preinstall: pico-sdk/src/rp2_common/hardware_xosc/preins
 pico-sdk/src/rp2_common/preinstall: pico-sdk/src/rp2_common/pico_bootrom/preinstall
 pico-sdk/src/rp2_common/preinstall: pico-sdk/src/rp2_common/pico_platform/preinstall
 pico-sdk/src/rp2_common/preinstall: pico-sdk/src/rp2_common/boot_stage2/preinstall
+pico-sdk/src/rp2_common/preinstall: pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/preinstall
 pico-sdk/src/rp2_common/preinstall: pico-sdk/src/rp2_common/pico_multicore/preinstall
 pico-sdk/src/rp2_common/preinstall: pico-sdk/src/rp2_common/pico_unique_id/preinstall
 pico-sdk/src/rp2_common/preinstall: pico-sdk/src/rp2_common/pico_bit_ops/preinstall
@@ -568,6 +570,7 @@ pico-sdk/src/rp2_common/clean: pico-sdk/src/rp2_common/hardware_xosc/clean
 pico-sdk/src/rp2_common/clean: pico-sdk/src/rp2_common/pico_bootrom/clean
 pico-sdk/src/rp2_common/clean: pico-sdk/src/rp2_common/pico_platform/clean
 pico-sdk/src/rp2_common/clean: pico-sdk/src/rp2_common/boot_stage2/clean
+pico-sdk/src/rp2_common/clean: pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/clean
 pico-sdk/src/rp2_common/clean: pico-sdk/src/rp2_common/pico_multicore/clean
 pico-sdk/src/rp2_common/clean: pico-sdk/src/rp2_common/pico_unique_id/clean
 pico-sdk/src/rp2_common/clean: pico-sdk/src/rp2_common/pico_bit_ops/clean
@@ -1060,6 +1063,24 @@ pico-sdk/src/rp2_common/pico_bootrom/preinstall:
 pico-sdk/src/rp2_common/pico_bootrom/clean:
 
 .PHONY : pico-sdk/src/rp2_common/pico_bootrom/clean
+
+#=============================================================================
+# Directory level rules for directory pico-sdk/src/rp2_common/pico_bootsel_via_double_reset
+
+# Recursive "all" directory target.
+pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/all:
+
+.PHONY : pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/all
+
+# Recursive "preinstall" directory target.
+pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/preinstall:
+
+.PHONY : pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/preinstall
+
+# Recursive "clean" directory target.
+pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/clean:
+
+.PHONY : pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/clean
 
 #=============================================================================
 # Directory level rules for directory pico-sdk/src/rp2_common/pico_cxx_options

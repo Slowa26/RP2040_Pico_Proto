@@ -18,10 +18,10 @@
   #error "SPI Setting Error !!"
 #endif
 
-// Function prototypes
+// Private function prototypes
 void RAM_Address(void);
 
-
+// Function definitions
 uint8_t color_byte[2],color_fill_byte[2];
 
 void OLED_CS(uint8_t x)  {
@@ -50,25 +50,23 @@ void OLED_DIN(uint8_t x) {
 }
 
 void Write_Command(uint8_t cmd)  {
-  //asm volatile("nop \n nop \n nop");
+
   OLED_CS(LOW);
-  asm volatile("nop \n nop \n nop \n nop \n nop \n nop"); //Chip Select Setup Time 20ns min
+
+  //Chip Select Setup Time 20ns min
+  //asm volatile("nop \n nop"); 
 
 #if  INTERFACE_4WIRE_SPI
 
   OLED_DC(LOW);
-  asm volatile("nop \n nop \n nop"); //Address Setup Time: 15ns
-  //SPI.transfer(cmd);
-  //printf("Write_Command: Writing: &cmd - %x to SPI\n", &cmd);
-  //printf("Write_Command: Displaying cmd - %x", cmd);
-  spi_write_blocking(SPI_PORT, &cmd, 1);
-  //printf("testVal: %d\n", testVal);
-  asm volatile("nop \n nop"); //Chip Select Hold Time: 10ns from last data transfer
-  asm volatile("nop \n nop \n nop \n nop \n nop \n nop \n nop \n nop"); //Address Hold Time: 42 ns
-  OLED_CS(HIGH);
-  //OLED_DC(HIGH);
-  
 
+  //Address Setup Time: 15ns min
+  ////asm volatile("nop \n nop"); 
+  spi_write_blocking(SPI_PORT, &cmd, 1);
+
+  //Address Hold Time, Chip Select Hold Time: 42 ns min
+  ////asm volatile("nop \n nop \n nop \n nop"); 
+  
 #elif INTERFACE_3WIRE_SPI
 
   uint8_t i;
@@ -90,28 +88,28 @@ void Write_Command(uint8_t cmd)  {
   }
 
 #endif
-  //asm volatile("nop \n nop \n nop");
-  //OLED_CS(LOW);
-  //asm volatile("nop \n nop \n nop"); //Chip Select Setup Time 20ns min
+
+  OLED_CS(HIGH);
 }
 
 void Write_Data(uint8_t dat) {
-  //asm volatile("nop \n nop \n nop");
+
   OLED_CS(LOW);
-  asm volatile("nop \n nop \n nop \n nop \n nop \n nop"); //Chip Select Setup Time 20ns min
+
+  //Chip Select Setup Time 20ns min
+  //asm volatile("nop \n nop"); 
 
 #if  INTERFACE_4WIRE_SPI
 
   OLED_DC(HIGH);
-  asm volatile("nop \n nop \n nop"); //Address Setup Time: 15ns
-  //SPI.transfer(dat);
-  //printf("Write_Data: Writing: &dat - %x to SPI\n", &dat);
-  //printf("Write_Data: Displaying dat - %x", dat);
+
+  //Address Setup Time: 15ns min
+  ////asm volatile("nop \n nop"); 
+
   spi_write_blocking(SPI_PORT, &dat, 1);
-  asm volatile("nop \n nop"); //Chip Select Hold Time: 10ns from last data transfer
-  OLED_CS(HIGH);
-  asm volatile("nop \n nop \n nop \n nop \n nop \n nop \n nop \n nop"); //Address Hold Time: 42 ns
-  //OLED_DC(LOW);
+
+  //Address Hold Time, Chip Select Hold Time: 42 ns min
+  ////asm volatile("nop \n nop \n nop \n nop"); 
 
 #elif INTERFACE_3WIRE_SPI
 
@@ -133,9 +131,10 @@ void Write_Data(uint8_t dat) {
   }
 
 #endif
-  //asm volatile("nop \n nop \n nop");
-  //OLED_CS(HIGH);
-  //asm volatile("nop \n nop \n nop");
+
+  //Address Hold Time & Chip Select Hold Time: 42 ns min
+  ////asm volatile("nop \n nop \n nop \n nop"); 
+  OLED_CS(HIGH);
 
 }
 
@@ -304,8 +303,6 @@ void Draw_Pixel(int16_t x, int16_t y)
   
 }
   
-
-  
 void Device_Init(void) {
 
 #if INTERFACE_3WIRE_SPI
@@ -320,22 +317,20 @@ void Device_Init(void) {
   OLED_RST(HIGH);
   sleep_ms(500);
     
-  //Write_Command(0xfd);  // command lock
-  Write_Command(0x00);
-  Write_Data(0xff);
-  //Write_Data(0x12);
+  Write_Command(0xfd);  // command lock
+  Write_Data(0x12);
   Write_Command(0xfd);  // command lock
   Write_Data(0xB1);
 
   Write_Command(0xae);  // display off
-    Write_Command(0xa4);  // Normal Display mode
+  Write_Command(0xa4);  // Normal Display mode
 
   Write_Command(0x15);  //set column address
-  Write_Data(0x00); //column address start 00
-  Write_Data(0x7f); //column address end 95
+  Write_Data(0x00);     //column address start 00
+  Write_Data(0x7f);     //column address end 95
   Write_Command(0x75);  //set row address
-  Write_Data(0x00); //row address start 00
-  Write_Data(0x7f); //row address end 63  
+  Write_Data(0x00);     //row address start 00
+  Write_Data(0x7f);     //row address end 63  
 
   Write_Command(0xB3);
   Write_Data(0xF1);
@@ -344,10 +339,9 @@ void Device_Init(void) {
   Write_Data(0x7F);
 
   Write_Command(0xa0);  //set re-map & data format
-  Write_Data(0x74); //Horizontal address increment
-            //74
+  Write_Data(0x74);     //Horizontal address increment
   Write_Command(0xa1);  //set display start line
-  Write_Data(0x00); //start 00 line
+  Write_Data(0x00);     //start 00 line
 
   Write_Command(0xa2);  //set display offset
   Write_Data(0x00);
@@ -391,8 +385,6 @@ void Device_Init(void) {
   Write_Command(0xaf);   //display on
 }
 
-  
-  
 // Draw a horizontal line ignoring any screen rotation.
 void Draw_FastHLine(int16_t x, int16_t y, int16_t length) {
   // Bounds check
@@ -457,7 +449,6 @@ void Draw_FastVLine(int16_t x, int16_t y, int16_t length)  {
 #endif
   }
 }
-
 
 void Display_Interface(void) {
   

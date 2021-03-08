@@ -87,6 +87,8 @@
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/edit_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir
+/home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/CMakeFiles/rebuild_cache.dir
+/home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/CMakeFiles/edit_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_multicore/CMakeFiles/rebuild_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_multicore/CMakeFiles/edit_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_unique_id/CMakeFiles/rebuild_cache.dir
@@ -113,8 +115,8 @@
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_stdio_semihosting/CMakeFiles/edit_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_stdio_uart/CMakeFiles/rebuild_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_stdio_uart/CMakeFiles/edit_cache.dir
-/home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/edit_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/rebuild_cache.dir
+/home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/edit_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_stdio_usb/CMakeFiles/rebuild_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_stdio_usb/CMakeFiles/edit_cache.dir
 /home/csowa/Desktop/PicoDev/_Prototype/Oled/build/pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/rebuild_cache.dir

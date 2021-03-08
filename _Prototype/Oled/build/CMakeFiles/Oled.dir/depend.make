@@ -20,6 +20,7 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -29,7 +30,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/config.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: generated/pico_base/pico/config_autogen.h
@@ -46,7 +46,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_divi
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/config.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -55,7 +54,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_doub
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/config.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: generated/pico_base/pico/config_autogen.h
@@ -63,7 +61,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_doub
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/config.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -72,7 +69,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_floa
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/config.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: generated/pico_base/pico/config_autogen.h
@@ -80,7 +76,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_floa
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/config.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: generated/pico_base/pico/config_autogen.h
@@ -88,7 +83,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_int6
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/config.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: generated/pico_base/pico/config_autogen.h
@@ -299,15 +293,10 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/tim
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/include/pico/util/pheap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_time/time.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -342,7 +331,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/dat
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/datetime.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/datetime.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/include/pico/util/datetime.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/datetime.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/datetime.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/datetime.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/datetime.c.obj: generated/pico_base/pico/config_autogen.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/datetime.c.obj: generated/pico_base/pico/version.h
@@ -356,7 +344,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/phe
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/pheap.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/include/pico/util/pheap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/pheap.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/pheap.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/pheap.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/pheap.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/pheap.c.obj: generated/pico_base/pico/config_autogen.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_util/pheap.c.obj: generated/pico_base/pico/version.h
@@ -686,7 +673,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_boot
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/error.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/types.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -700,7 +686,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_doub
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/error.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/types.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
@@ -708,9 +693,9 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_doub
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: generated/pico_base/pico/config_autogen.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: generated/pico_base/pico/version.h
 
+CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/assert.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/types.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_double/include/pico/double.h
@@ -723,7 +708,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_floa
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/error.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/types.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
@@ -731,9 +715,9 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_floa
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: generated/pico_base/pico/config_autogen.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: generated/pico_base/pico/version.h
 
+CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/assert.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/types.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_float/include/pico/float.h
@@ -752,6 +736,7 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_mall
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: generated/pico_base/pico/config_autogen.h
@@ -780,7 +765,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_prin
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/error.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_base/include/pico/types.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_printf/printf.c
@@ -835,7 +819,6 @@ CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_stan
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/Oled.dir/home/csowa/Desktop/PicoDev/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: generated/pico_base/pico/config_autogen.h
